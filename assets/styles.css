@@ -1,0 +1,174 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+header{
+    color: #FFFFFF;
+    height: 4rem;
+    width: 100%;
+    background-image: linear-gradient(90deg, #111827, #111827)
+}
+
+nav{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    align-items: center;
+}
+
+.nav-right-box{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    font-size: 1rem;
+}
+.nav-right-box .nav-item{
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 0.4rem 0.6rem;
+    color: #FFFFFF;
+    transition: 0.5s
+}
+.nav-right-box .nav-item:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+}
+.nav-left-box{
+    justify-content: space-between;
+    width: 14%;
+    font-size: 1rem;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+.nav-left-box a img{
+    width: 2.5rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+section{
+    height: 40rem;
+    background-image: url(imgs/background-edited.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-content{
+    display: flex;
+    flex-direction: column;
+    width: 42rem;
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.section-content h1{
+    width: 100%;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.section-content h3{
+    font-size: 1.2rem;
+    margin-bottom: 3%;
+}
+
+.section-content button{
+    border-radius: 6px;
+    background-color:#081226;
+    color: white;
+    width: 10rem;
+    font-size: 1.1rem;
+    padding: 0.5rem 2rem;
+    transition: 0.5s all ease;
+}
+
+main{
+    font-family: 'Poppins';
+    color: black;
+    width: 80%;
+    margin: 0 auto;
+}
+main h2{
+    font-size: 2rem;
+    margin: 5rem 0 2rem 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem 2rem;
+}
+
+.card{
+    border: 2px solid #111827;
+    font-family: "IBM Plex Sans", sans-serif;
+    border-radius: 6px;
+    margin-bottom: 5rem;
+    box-shadow: -1px 12px 20px -5px rgba(0,0,0,0.6);
+}
+
+.card-first-banner{
+    background-image: url("imgs/ireja.jpg");
+}
+.card-second-banner{
+    background-image: url("imgs/praca.jpg");
+}
+.card-third-banner{
+    background-image: url("imgs/rancho.jpg")
+}
+.card-banner{
+    background-size: cover;
+    background-position: center;
+    height: 13rem;
+}
+
+.card-content{
+    width: 90%;
+    margin: 0 auto;
+}
+.card-content h3{
+    margin: 1.5rem 0 1rem 0;
+}
+
+.card-content p{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.card-content button{
+    color: #FFFFFF;
+    background-color: #081226;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    margin-bottom: 1.3rem;
+    font-weight: bold;
+    transition: 0.5s all ease;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:#18306c;
+    color: #FFFFFF;
+}
