@@ -47,19 +47,34 @@ nav{
     background-color: #FFFFFF;
 }
 .nav-left-box{
+    display: inline;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     color: #081226;
     border-radius: 5px;
-    justify-content: left;
-    width: 13%;
+    width: 12%;
     font-size: 1rem;
     align-items: center;
     display: flex;
-    height: 80%;
+    max-height: 80%;
     background-color: #FFFFFF;
 }
 .nav-left-box a img{
-    width: 4rem;
+    width: 5rem;
 }
+
+.nav-left-box a{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.nav-left-box a h2{
+    font-weight: bold;
+    color: #111827;
+}
+
 
 
 .bold{
@@ -100,7 +115,8 @@ section{
     border-radius: 6px;
     background-color:#081226;
     color: white;
-    width: 10rem;
+    width: 25%;
+    height: 8%;
     font-size: 1.1rem;
     padding: 0.5rem 2rem;
     transition: 0.5s all ease;
@@ -140,7 +156,7 @@ main h2{
     background-image: url("imgs/rancho.jpg")
 }
 .card-banner{
-    border-radius: 6px;
+    border-radius: 6px 6px 0 0;
     background-size: cover;
     background-position: center;
     height: 13rem;
